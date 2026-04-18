@@ -9,7 +9,7 @@ const SearchBar = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log(text);
+    // console.log(text);
 
     dispatch(setQuery(text));
 
