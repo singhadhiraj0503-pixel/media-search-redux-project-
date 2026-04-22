@@ -6,10 +6,12 @@ import ResultGrid from "./components/ResultGrid";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import CollectionPage from "./pages/CollectionPage";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="size-full">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/collections" element={<CollectionPage />}></Route>

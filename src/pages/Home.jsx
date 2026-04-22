@@ -28,7 +28,7 @@ const Home = () => {
           </NavLink>
         </div>
       </div> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <SearchBar />
 
       {query !== "" ? (
